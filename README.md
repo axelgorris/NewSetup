@@ -4,6 +4,7 @@
 
 - <b>Customize Windows Terminal</b>: https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
 - <b>Powershell profile location:</b> C:\Users\fluendo\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+- Setup linux commands in PowerShell: https://www.hanselman.com/blog/AWonderfullyUnholyAllianceRealLinuxCommandsForPowerShellWithWSLFunctionWrappers.aspx
 
 ## Choco packages
 ❯ choco list --localonly
