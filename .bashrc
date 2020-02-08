@@ -1,0 +1,1 @@
+export PATH=$PATH:c/Users/fluendo/AppData/Local/Android/Sdk/platform-tools:~/AppData/Roaming/npm

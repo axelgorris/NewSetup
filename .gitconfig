@@ -1,0 +1,38 @@
+[user]
+	email = agorris@rift.gg
+	name = Axel Gorris
+
+[alias]
+# Update branch to master keeping all changes
+#up = "!f() { git commit -a -m \"Before rebase\" && git pull --rebase && git reset HEAD~1; }; f"
+# Update submodule to master
+#sub-ma= "!f() { cd $1 && git checkout master && git pull && cd ..; }; f"
+# Commit submodule update
+#sub-co = "!f() { git commit $1 -m \"Update submodule\"; }; f"
+# Update submodule to master and commit the changes
+#sub-al = "!f() { git sub-up $1 && git sub-co $1; }; f"
+# Update all submodules
+#sub-up = submodule update --recursive
+# Rebase a development branch autosquashing commits before a merge
+#ra = "!f() { git fetch && git rebase --interactive --autosquash origin/master; }; f"
+
+hist = "log --graph --decorate --pretty=oneline"
+st = "status"
+ci = "commit"
+ck = "checkout"
+parent = "!git show-branch | grep '*' | grep -v \"$(git rev-parse --abbrev-ref HEAD)\" | head -n1 | sed 's/.*\\[\\(.*\\)\\].*/\\1/' | sed 's/[\\^~].*//' #"
+clrgtk = "checkout -- '*gtk-gui*'"
+
+
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[core]
+	editor = \"C:\\Users\\fluendo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+	autocrlf = input
+	eol = lf
+	ignorecase = true
+	safecrlf=warn
+
