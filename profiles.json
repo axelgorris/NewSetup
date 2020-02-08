@@ -44,7 +44,7 @@
             "name": "Azure Cloud Shell",
             "fontFace": "CascadiaCode Nerd Font",
             "source": "Windows.Terminal.Azure"
-        },
+        }
     ],
 
     // Add custom color schemes to this array
