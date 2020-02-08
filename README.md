@@ -5,7 +5,7 @@
 - <b>Customize Windows Terminal</b>: 
   - https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
   - https://www.cloudmanav.com/tech/beautify-windows-terminal/#
-- <b>Powershell profile location:</b> C:\Users\fluendo\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+- <b>Powershell profile location:</b> $profile -> C:\Users\fluendo\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 - <b>Install Powershell Core:</b> https://www.thomasmaurer.ch/2019/03/how-to-install-and-update-powershell-6/
 - Setup linux commands in PowerShell: https://www.hanselman.com/blog/AWonderfullyUnholyAllianceRealLinuxCommandsForPowerShellWithWSLFunctionWrappers.aspx
 
