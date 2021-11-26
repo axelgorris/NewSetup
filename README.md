@@ -11,6 +11,8 @@
 - <b>Install Powershell Core:</b> https://www.thomasmaurer.ch/2019/03/how-to-install-and-update-powershell-6/
 - <b>Setup linux commands in PowerShell:</b> https://www.hanselman.com/blog/AWonderfullyUnholyAllianceRealLinuxCommandsForPowerShellWithWSLFunctionWrappers.aspx
 - Tweak WSL shell: https://platzi.com/tutoriales/1748-terminal/8505-configurando-wsl2-windows-terminal-y-oh-my-zsh/
+- https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh
+
 - Use windows Git-credentials-manager in WSL: https://github.com/GitCredentialManager/git-credential-manager/blob/main/docs/wsl.md
 
 ## Choco packages
