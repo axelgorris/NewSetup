@@ -6,7 +6,9 @@
   - Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
   - Install Ubuntu from MS Store
 
-- <b>Customize Windows Terminal</b>: https://www.cloudmanav.com/tech/beautify-windows-terminal/#
+- <b>Customize Windows Terminal</b>: 
+  - https://www.cloudmanav.com/tech/beautify-windows-terminal/#
+  - https://beebom.com/how-customize-windows-terminal-2/
 - <b>Powershell profile location:</b> $profile -> C:\Users\fluendo\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 - <b>Install Powershell Core:</b> https://www.thomasmaurer.ch/2019/03/how-to-install-and-update-powershell-6/
 - <b>Setup linux commands in PowerShell:</b> https://www.hanselman.com/blog/AWonderfullyUnholyAllianceRealLinuxCommandsForPowerShellWithWSLFunctionWrappers.aspx
