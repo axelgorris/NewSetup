@@ -1,0 +1,138 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  // "terminal.integrated.fontFamily": "DejaVu Sans Mono for Powerline",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",    
+  "profiles":
+  [
+      {
+          "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+          "hidden": false,
+          "name": "PowerShell Core",
+          "fontFace": "Cascadia Code PL",
+          "source": "Windows.Terminal.PowershellCore",
+          "backgroundImage": "C:\\Users\\a.gorris\\windows10-wallpaper.jpg",
+          "backgroundImageOpacity" : 0.05,
+          "useAcrylic" : true,
+          "acrylicOpacity" : 0.9
+      },
+      {
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "hidden": false,
+        "name": "Ubuntu-20.04",
+        "source": "Windows.Terminal.Wsl",
+        "colorScheme" : "wsl",
+        "fontFace" : "Cascadia Code PL",
+        // "fontFace" : "Menlo for Powerline",
+        "backgroundImage": "C:\\Users\\a.gorris\\wsl-wallpaper.jpg",
+        "backgroundImageOpacity" : 0.05,
+        "useAcrylic" : true,
+        "acrylicOpacity" : 0.9
+    },
+    {
+      "guid": "{00000000-0000-0000-0000-000000000001}",
+      "commandline" : "\"%PROGRAMFILES%\\Git\\usr\\bin\\bash.exe\" --login -i -l",
+      "icon" : "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico", 
+      "name" : "GitBash",
+      "fontFace": "Cascadia Code PL",
+      "startingDirectory" : "C:\\Users\\a.gorris\\code"
+    },
+      {
+          "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",            
+          "name": "Windows PowerShell",
+          "fontFace": "Cascadia Code PL",
+          "background": "#212224",
+          "commandline": "powershell.exe",
+          "hidden": false
+      },
+      {
+          // Make changes here to the cmd.exe profile
+          "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",            
+          "name": "cmd",
+          "fontFace": "Cascadia Code PL",
+          "commandline": "cmd.exe",
+          "hidden": false
+      },     
+      {
+          "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",            
+          "hidden": false,
+          "name": "Azure Cloud Shell",
+          "fontFace": "Cascadia Code PL",
+          "source": "Windows.Terminal.Azure"
+      },
+      {
+          "guid": "{1cd79813-5972-56cb-badb-ba5ee12693c5}",
+          "name": "rancher-desktop",
+          "source": "Windows.Terminal.Wsl"
+      },
+      {
+          "guid": "{1bdae7ec-8ca6-5caa-8453-8b6fe78b2748}",
+          "name": "rancher-desktop-data",
+          "source": "Windows.Terminal.Wsl"
+      }
+  ],
+
+  // Add custom color schemes to this array
+  "schemes": [
+    {
+        "background" : "#002B36",
+        "black" : "#002B36",
+        "blue" : "#268BD2",
+        "brightBlack" : "#657B83",
+        "brightBlue" : "#839496",
+        "brightCyan" : "#D33682",
+        "brightGreen" : "#B58900",
+        "brightPurple" : "#EEE8D5",
+        "brightRed" : "#CB4B16",
+        "brightWhite" : "#FDF6E3",
+        "brightYellow" : "#586E75",
+        "cyan" : "#2AA198",
+        "foreground" : "#93A1A1",
+        "green" : "#859900",
+        "name" : "wsl",
+        "purple" : "#6C71C4",
+        "red" : "#DC322F",
+        "white" : "#93A1A1",
+        "yellow" : "#B58900"
+    }
+],
+
+  // Add any keybinding overrides to this array.
+  // To unbind a default keybinding, set the command to "unbound"
+  "keybindings": [
+    { 
+      "command": "copy", 
+      "keys": ["ctrl+c"] 
+    },
+    { 
+      "command": "paste", 
+      "keys": ["ctrl+v"] 
+    },
+    {
+      "command": "closeTab",
+      "keys": ["ctrl+w"]
+    },
+    {
+      "command": "newTab",
+      "keys": ["ctrl+t"]
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto"
+      },
+      "keys": ["ctrl+º"]
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto"
+        // "splitMode": "duplicate"
+      },
+      "keys": ["ctrl+º"]
+    }
+  ]
+}
